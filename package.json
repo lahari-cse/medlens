@@ -1,0 +1,15 @@
+{
+  "name": "medlens-monorepo",
+  "version": "1.0.0",
+  "description": "MedLens — AI-Powered Clinical Information Intelligence System",
+  "private": true,
+  "scripts": {
+    "install:all": "npm --prefix apps/backend install && npm --prefix apps/frontend install",
+    "build:backend": "npm --prefix apps/backend run build",
+    "build:frontend": "npm --prefix apps/frontend run build",
+    "build": "npm run build:backend && npm run build:frontend",
+    "start:backend": "npm --prefix apps/backend start",
+    "start:frontend": "npm --prefix apps/frontend run dev",
+    "test": "npm --prefix apps/backend test"
+  }
+}

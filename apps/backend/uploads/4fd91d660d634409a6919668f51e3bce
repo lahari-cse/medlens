@@ -1,0 +1,43 @@
+========================================================================================
+                      METROPOLITAN DIAGNOSTICS LABORATORY
+              100 Health Sciences Plaza, Suite 400, Chicago, IL 60611
+                 CLIA License #: 99D0812903 • Phone: (800) 555-0199
+========================================================================================
+
+PATIENT INFORMATION:
+-------------------
+Patient Name:    Eleanor Vance                      Specimen ID:   SPEC-2026-8891
+Patient ID / MRN: PAT-8812                           Order Date:    2026-09-01
+Age / Sex:       68 Yrs / Female                    Ordering Phys: Dr. Alex Rivera, MD
+Facility:        Outpatient Internal Clinic         Collection:    2026-09-01 07:30 AM
+
+DOCUMENT TITLE: COMPREHENSIVE METABOLIC PANEL & HBA1C REPORT
+----------------------------------------------------------------------------------------
+
+TEST NAME                    RESULT       UNITS      REFERENCE RANGE      STATUS / FLAGS
+----------------------------------------------------------------------------------------
+Fasting Plasma Glucose       142 H        mg/dL      70 - 99              HIGH
+Hemoglobin A1c (HbA1c)       7.4 H        %          < 5.7                HIGH
+Serum Sodium                 139          mmol/L     135 - 145            NORMAL
+Serum Potassium              4.2          mmol/L     3.5 - 5.1            NORMAL
+Serum Creatinine             0.95         mg/dL      0.60 - 1.20          NORMAL
+Blood Urea Nitrogen (BUN)    16           mg/dL      7 - 20               NORMAL
+eGFR (CKD-EPI)               > 60         mL/min     > 60                 NORMAL
+Serum Calcium                9.4          mg/dL      8.5 - 10.5           NORMAL
+Total Cholesterol            218 H        mg/dL      < 200                HIGH
+LDL Cholesterol              135 H        mg/dL      < 100                HIGH
+HDL Cholesterol              48           mg/dL      > 40                 NORMAL
+Triglycerides                175 H        mg/dL      < 150                HIGH
+
+INTERPRETIVE NOTES & COMMENTS:
+-----------------------------
+1. Elevated Fasting Plasma Glucose (142 mg/dL) and HbA1c (7.4%) consistent with Type 2 Diabetes Mellitus.
+2. Moderate dyslipidemia noted with total cholesterol 218 mg/dL and LDL 135 mg/dL.
+3. Kidney function parameters (Creatinine 0.95 mg/dL, eGFR > 60) remain within normal limits.
+
+AUTHENTICATION:
+--------------
+Electronically signed by:  Dr. Marcus Vance, MD, FCAP (Chief Pathologist)
+Authentication Timestamp:  2026-09-01 11:45:12 EST
+========================================================================================
+*** END OF DIAGNOSTIC REPORT — METROPOLITAN CLINICAL INFORMATION SYSTEMS ***
