@@ -139,14 +139,3 @@ After viewing a processed report, click **Export Report** to download:
 
 ---
 
-## 📄 License
-
-This project is licensed under the **MIT License**.
-
----
-
-## 👩‍💻 Author
-
-**Lahari** — [@lahari-cse](https://github.com/lahari-cse)
-
-> Built with ❤️ for clinical teams who need reliable, traceable, and auditable medical information intelligence.
