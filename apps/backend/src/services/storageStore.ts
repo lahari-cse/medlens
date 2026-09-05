@@ -20,6 +20,9 @@ class StorageStore {
 
   // --- Patient Methods ---
   public getPatients(): Patient[] {
+    if (this.patients.size === 0) {
+      this.seedDemoData();
+    }
     return Array.from(this.patients.values());
   }
 

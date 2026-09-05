@@ -1,7 +1,16 @@
 import axios from 'axios';
 import { Patient, MedicalReport, LabResult, Conflict, ClarificationQuestion, AISummary, AuditLog, TimelineEvent } from '../types';
 
-const API_BASE = '/api';
+const getApiBase = () => {
+  const envUrl = (import.meta as any).env?.VITE_API_URL;
+  if (envUrl) {
+    const cleanUrl = envUrl.replace(/\/$/, '');
+    return cleanUrl.endsWith('/api') ? cleanUrl : `${cleanUrl}/api`;
+  }
+  return '/api';
+};
+
+const API_BASE = getApiBase();
 
 export const api = {
   // Patients
