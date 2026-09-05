@@ -24,14 +24,25 @@ app.use('/uploads', express.static(uploadsDir));
 // API Routes
 app.use('/api', apiRouter);
 
-// Health check
-app.get('/health', (req, res) => {
+// Health check & Root landing route
+const healthResponse = (req: any, res: any) => {
   res.json({
     status: 'HEALTHY',
     service: 'MedLens Clinical Information Intelligence Backend',
+    version: '1.0.0',
+    endpoints: {
+      health: '/health',
+      patients: '/api/patients',
+      reports: '/api/patients/:id/reports',
+      conflicts: '/api/patients/:id/conflicts'
+    },
     timestamp: new Date().toISOString()
   });
-});
+};
+
+app.get('/', healthResponse);
+app.get('/health', healthResponse);
+app.get('/api/health', healthResponse);
 
 app.listen(PORT, () => {
   console.log(`=======================================================`);
